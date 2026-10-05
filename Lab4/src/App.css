@@ -1,0 +1,48 @@
+.container {
+  width: min(520px, calc(100% - 32px));
+  margin: 40px auto;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 32px;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+button {
+  padding: 10px 18px;
+  margin-bottom: 10px;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  background: #333;
+  cursor: pointer;
+  font: inherit;
+}
+
+button:hover {
+  background: #555;
+}
+
+.error {
+  color: #b00020;
+}
